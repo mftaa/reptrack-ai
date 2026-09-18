@@ -8,7 +8,7 @@ export function useRoboflow(exerciseId: string | null) {
   const latestPredictionRef = useRef<{ label: string; confidence: number }>({ label: 'Unknown', confidence: 0 });
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
-  const loadModel = useCallback(async (modelUrl: string) => {
+  const loadModel = useCallback(async (_modelUrl: string) => {
     // For Roboflow serverless, there is no real loading of the model locally.
     // We just verify that the API key exists.
     const apiKey = import.meta.env.VITE_ROBOFLOW_API_KEY;

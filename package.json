@@ -11,9 +11,6 @@
   },
   "dependencies": {
     "@teachablemachine/pose": "^0.8.6",
-    "@tensorflow/tfjs": "^4.22.0",
-    "@tensorflow/tfjs-converter": "^4.22.0",
-    "@tensorflow/tfjs-core": "^4.22.0",
     "lucide-react": "^1.39.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
